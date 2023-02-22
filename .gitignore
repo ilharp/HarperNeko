@@ -8,6 +8,7 @@ tsconfig.tsbuildinfo
 
 .env.local
 
+.koishi.db
 accounts/
 data/
 logs/
