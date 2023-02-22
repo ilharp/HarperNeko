@@ -1,0 +1,151 @@
+host: '${{ env.HPN_EXPOSE ? "0.0.0.0" : "127.0.0.1" }}'
+port: ${{ env.HPN_PORT && Number(env.HPN_PORT) || 5140 }}
+maxPort: ${{ env.HPN_PORT && Number(env.HPN_PORT) || 5140 }}
+
+prefix:
+  - .
+  - 。
+nickname:
+  - 猫猫
+  - Harper猫猫
+
+autoAuthorize: '${{ env.HPN_PUBLIC ? 1 : 2 }}'
+
+selfUrl: ${{ env.HPN_SELF_URL }}
+
+plugins:
+  group:basic:
+    help: {}
+    rate-limit: {}
+    locales: {}
+    commands: {}
+    admin: {}
+    bind: {}
+    auth:
+      $if: env.HPN_PROD
+  group:console:
+    analytics: {}
+    console:
+      open: false
+    dataview: {}
+    desktop:
+      $if: env.KOISHI_AGENT?.includes('Desktop')
+    logger:
+      $if: '!env.HPN_PROD'
+    insight: {}
+    market:
+      $if: '!env.HPN_PROD'
+      registry:
+        endpoint: https://registry.npmmirror.com
+      search:
+        endpoint: https://registry.koishi.chat/index.json
+    sandbox: {}
+    status: {}
+    migration:
+      $if: '!env.HPN_PROD'
+  group:database:
+    database-sqlite:
+      $if: '!env.HPN_MYSQL_HOST'
+    database-mysql:
+      $if: env.HPN_MYSQL_HOST
+      host: ${{ env.HPN_MYSQL_HOST }}
+      host: ${{ Number(env.HPN_MYSQL_PORT) }}
+      password: ${{ env.HPN_MYSQL_PASSWORD }}
+      database: ${{ env.HPN_MYSQL_DATABASE }}
+    assets-local:
+      root: ${{ env.HPN_ASSETS_ROOT }}
+      selfUrl: ${{ env.HPN_SELF_URL }}
+  group:adapter:
+    adapter-onebot:
+      $if: env.HPN_QQ
+      protocol: '${{ env.HPN_GOCQ_EXTERNAL ? "ws" : "ws-reverse" }}'
+      selfId: ${{ env.HPN_QQ }}
+      endpoint: ${{ env.HPN_GOCQ_ENDPOINT }}
+      token: ${{ env.HPN_GOCQ_TOKEN }}
+      gocqhttp:
+        enabled: ${{ !env.HPN_GOCQ_EXTERNAL }}
+    gocqhttp:
+      $if: env.HPN_QQ && !env.HPN_GOCQ_EXTERNAL
+  group:3rdparty:
+    5k: {}
+    aircon: {}
+    answer-book: {}
+    couplet: {}
+    echo: {}
+    footer:
+      $if: env.HPN_BEIAN
+      items:
+        - text: ${{ env.HPN_BEIAN }}
+          link: https://beian.miit.gov.cn
+    hitokoto: {}
+    human-sign: {}
+    jrrp: {}
+    marry: {}
+    moyu2: {}
+    nyan:
+      transformLastLineOnly: true
+    petpet-plus: {}
+    rr-welcome: {}
+    rss: {}
+    shutdown: {}
+    sleep-manage: {}
+    spawn-handwrite-img: {}
+  group:dialog:
+    dialogue: {}
+    dialogue-author: {}
+    dialogue-context: {}
+    dialogue-flow: {}
+    dialogue-rate-limit: {}
+    dialogue-time: {}
+  group:ppt:
+    puppeteer:
+      args:
+        - "--no-sandbox"
+        - "--allow-file-access"
+        - "--disable-web-security"
+        - "--allow-file-access-from-files"
+        - "--enable-local-file-accesses"
+        - "--disable-setuid-sandbox"
+        - "--allow-insecure-localhost"
+    chess: {}
+    color: {}
+    markdown: {}
+    screenshot: {}
+    tex: {}
+  group:shigma:
+    abbreviation: {}
+    alipay-voice: {}
+    baidu: {}
+    brainfuck: {}
+    broadcast: {}
+    callme: {}
+    changelog: {}
+    cron: {}
+    ~crazy-thursday: {}
+    crypto: {}
+    dice: {}
+    ~forward: {}
+    genshin-voice: {}
+    glot: {}
+    guess-number: {}
+    hangman: {}
+    httpcat: {}
+    ~image-search: {}
+    inspect: {}
+    magi: {}
+    maya: {}
+    mcping: {}
+    music: {}
+    nonsense: {}
+    oeis: {}
+    phlogo: {}
+    qrcode: {}
+    recall: {}
+    repeater: {}
+    respondent: {}
+    schedule: {}
+    ~shorturl: {}
+    sudo: {}
+    switch: {}
+    twdne: {}
+    weather: {}
