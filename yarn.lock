@@ -46,34 +46,34 @@
     js-yaml "^4.1.0"
     ns-require "^1.1.4"
 
-"@koishijs/plugin-adapter-onebot@^5.5.4":
-  version "5.6.0"
-  resolved "https://registry.npmmirror.com/@koishijs/plugin-adapter-onebot/-/plugin-adapter-onebot-5.6.0.tgz#2576473ab5759dd1a2f5ca86057054b0c9552532"
-  integrity sha512-7xivAIDKFZL/wjmkzscU4lS0I8wxQTe1jaH2TGwdxcoE/StlQQDlv3nlc1Oi9xco+Cb9ulcuPhzmuVQX3GJKJA==
+"@koishijs/plugin-adapter-onebot@5.5.4":
+  version "5.5.4"
+  resolved "https://registry.npmmirror.com/@koishijs/plugin-adapter-onebot/-/plugin-adapter-onebot-5.5.4.tgz#5c53c9da1e89902fbbe75ff4fdc601af4545c11e"
+  integrity sha512-vyJe0YqKepDzme7uvEb71B6emhm3IPhCuhzQijtT8YL1pOB74qZIlc7yfviOt9whR2O7KnKvGwFCTA/Fq+EwRQ==
   dependencies:
-    "@satorijs/adapter-onebot" "^5.6.0"
+    "@satorijs/adapter-onebot" "^5.5.4"
 
-"@koishijs/plugin-admin@^1.1.5":
-  version "1.1.6"
-  resolved "https://registry.npmmirror.com/@koishijs/plugin-admin/-/plugin-admin-1.1.6.tgz#b9f3cf12349ac524fc5a8c95ef4c1600a7b15c5e"
-  integrity sha512-h9LHXd00FmKQfQUoWhVvJ8Dkcp/I0S4vGN9VAi6wr3ehB3GTDJFp+1PM1oAwpTZvlS3rJJ2O7tdLs3GNd0LN2Q==
+"@koishijs/plugin-admin@1.1.5":
+  version "1.1.5"
+  resolved "https://registry.npmmirror.com/@koishijs/plugin-admin/-/plugin-admin-1.1.5.tgz#4b77cfd2a6eca49ba6e9e78824e5ae045cb30716"
+  integrity sha512-m8CmEB1+9Dyu56qhCduiIdcsVr3aKsSiZ6I1jUQubjhzZHepQQDoWdlSaP/UxMMmUnIVltZ7sfJNQtP4s3DiNg==
   dependencies:
-    "@koishijs/helpers" "^1.2.7"
+    "@koishijs/helpers" "^1.2.3"
 
-"@koishijs/plugin-analytics@^1.0.0":
-  version "1.0.3"
-  resolved "https://registry.npmmirror.com/@koishijs/plugin-analytics/-/plugin-analytics-1.0.3.tgz#04ddc7f920cfa60fa88868e2b6576f92e50899ae"
-  integrity sha512-eUfAaomrFL8gNlo8ZhVZGPzdAs4BJZezeu+EKacC4SZzUDezVqpmqJHICk8lxZj7epIkqiwDzT1crqP4mmm2GQ==
+"@koishijs/plugin-analytics@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/@koishijs/plugin-analytics/-/plugin-analytics-1.0.0.tgz#096421c6d692aa787fb18c32f4a1cef420516581"
+  integrity sha512-KKBXO2BLb08yav7EXoS7GNqR9k43Mgt+/ynRnRgGXgTeNH1aYjkYeApJUKqZCqdUiTaOejR42xSHhxwvDYkIBw==
 
 "@koishijs/plugin-auth@2.5.1":
   version "2.5.1"
   resolved "https://registry.npmmirror.com/@koishijs/plugin-auth/-/plugin-auth-2.5.1.tgz#3cfc2ac86c6cefa871266bd340b449579059878b"
   integrity sha512-ev/6rcVyp9bS7lqWj9q55KV54DB32QWVZf7sWulAsjQIhBGXfnCJVIzKL9TJ6d1OdoBS4LC8udyrXd71IiDZOg==
 
-"@koishijs/plugin-bind@^1.3.2":
-  version "1.3.3"
-  resolved "https://registry.npmmirror.com/@koishijs/plugin-bind/-/plugin-bind-1.3.3.tgz#bb9cbdc71aa19c0dd903137d7ddb396f76793084"
-  integrity sha512-+31HBqhHReoaMCNilojXqtQnSBoTcxglH+4137PXEz12M8Mn3gspe7QnUQTCGHvFjcTRfjtQz1tHnpub4J4zXA==
+"@koishijs/plugin-bind@1.3.2":
+  version "1.3.2"
+  resolved "https://registry.npmmirror.com/@koishijs/plugin-bind/-/plugin-bind-1.3.2.tgz#a76e51a0a97dfef47735de1fe09411d74c654dc2"
+  integrity sha512-k8NQ8vehcGrGMEFsQ2hHM6LQYbXecYPZpuqFuio5po3kSobr0/rdWqPkpMhxw2K1GijaJ1sp1zQ7P54IS9dO6g==
 
 "@koishijs/plugin-broadcast@1.1.2":
   version "1.1.2"
@@ -85,7 +85,7 @@
   resolved "https://registry.npmmirror.com/@koishijs/plugin-callme/-/plugin-callme-1.3.1.tgz#57b98e58c88afef27379cb71bf372716a99782e5"
   integrity sha512-eM/YQ5k705lMA3aGjhKtYuM3GdLLgBOc5qwxPX8PcJ9QnC2t2ReUTa+kKDjIwqDVIjr7XZg/osR43PF3pJAFUg==
 
-"@koishijs/plugin-commands@^2.3.0":
+"@koishijs/plugin-commands@2.3.0":
   version "2.3.0"
   resolved "https://registry.npmmirror.com/@koishijs/plugin-commands/-/plugin-commands-2.3.0.tgz#d5312f64944fdbe3cc749794fdd572adcc15f3b4"
   integrity sha512-h9/M54kp2si5dkBNqVrLhg2Q/OFty5MRIiBkD6W1hIDVNJGfaVpYfTGgoTz866yDRAP7Zh42t73ZkoKveMgFLw==
@@ -108,6 +108,13 @@
   dependencies:
     "@minatojs/driver-mysql" "^2.3.2"
 
+"@koishijs/plugin-database-sqlite@3.3.0":
+  version "3.3.0"
+  resolved "https://registry.npmmirror.com/@koishijs/plugin-database-sqlite/-/plugin-database-sqlite-3.3.0.tgz#437086b7b2326e732b1de398a449879fdd5db2fc"
+  integrity sha512-X46GkfaXnt/vZNIfyzSFkEr+oFbix5nnR4qTkca6wi90D31D/jGHxEqyyggOrF9RGisNGTn6ndF22Q4WNcpghQ==
+  dependencies:
+    "@minatojs/driver-sqlite" "^3.3.0"
+
 "@koishijs/plugin-dataview@2.2.1":
   version "2.2.1"
   resolved "https://registry.npmmirror.com/@koishijs/plugin-dataview/-/plugin-dataview-2.2.1.tgz#b1ef41427768b4f93ae117058ba0de7154bd57d6"
@@ -120,10 +127,10 @@
   dependencies:
     "@koishijs/helpers" "^1.2.6"
 
-"@koishijs/plugin-help@^2.0.2":
-  version "2.0.4"
-  resolved "https://registry.npmmirror.com/@koishijs/plugin-help/-/plugin-help-2.0.4.tgz#f4a68edd653aedc2488c71eabe49878e8a8f67b1"
-  integrity sha512-aZjc9ouhNPjd8n7InAEjpXqU1CdyjbOQlu3k9b79tufJJv/XUHwapAdRShU6X0qcVtE9rH7OVOdlIRbcCcQLDQ==
+"@koishijs/plugin-help@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.npmmirror.com/@koishijs/plugin-help/-/plugin-help-2.0.2.tgz#b4ba6b4ca643177e9a8f1775dfd52d2fee2108a8"
+  integrity sha512-8diT1WpuRKzZ0aPdUtUSb38GbeZ6AgjBQg6TlY3gB/obW5lNP16j+/6vliDl2i50CSPcXAC8XVV5BfBjO+iOJg==
 
 "@koishijs/plugin-insight@3.3.0":
   version "3.3.0"
@@ -132,13 +139,18 @@
   dependencies:
     throttle-debounce "^3.0.1"
 
-"@koishijs/plugin-locales@^2.1.1":
-  version "2.1.4"
-  resolved "https://registry.npmmirror.com/@koishijs/plugin-locales/-/plugin-locales-2.1.4.tgz#2e546496a3794c8b8ebcef40f71a0d192991d30e"
-  integrity sha512-w82Dpcy6mMHdlzQM9oY6H9begUnnVOY8NloxjNYJgIskmocKIzs/Ajo0HczC1czP+mX468SsPlox5w7JAS/gjQ==
+"@koishijs/plugin-locales@2.1.1":
+  version "2.1.1"
+  resolved "https://registry.npmmirror.com/@koishijs/plugin-locales/-/plugin-locales-2.1.1.tgz#fac0b2a83fbe87a399ffa5f35aa3bc6b80416851"
+  integrity sha512-ZUopbRiJu0nxBVYqGDnSZJyUlOFU/Ghx4K4A2JzMI3747t8T+w7Ydpt1v78XUJKyipBFmp5UGVDZjcYpywG+hQ==
   dependencies:
     js-yaml "^4.1.0"
     throttle-debounce "^3.0.1"
+
+"@koishijs/plugin-logger@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.npmmirror.com/@koishijs/plugin-logger/-/plugin-logger-2.2.0.tgz#0692020f3b96d2f693da949e9624e9363b08f1b2"
+  integrity sha512-s/iqFVvTq21dtLnGbkvFTZSU2zoy55yjaSNpKUzBTj5Jv3pu+Ysj1XPNBZ3iJLaCOEbd1ejNLqtyNK+Lpgk+Vw==
 
 "@koishijs/plugin-market@1.10.3":
   version "1.10.3"
@@ -226,6 +238,16 @@
     cosmokit "^1.4.0"
     reggol "^1.3.5"
 
+"@minatojs/driver-sqlite@^3.3.0":
+  version "3.3.8"
+  resolved "https://registry.npmmirror.com/@minatojs/driver-sqlite/-/driver-sqlite-3.3.8.tgz#c62de05d9fa35553bbb67fe2ab2199cef7c6bae0"
+  integrity sha512-ieWmPhHHFfE23YkaB5+TVqRHgw6uAYrIXrza2y7ypbbbp5JlQdO9+VvQJGbbzPmnCD5m//ZAI9jCU68xaY78iw==
+  dependencies:
+    "@minatojs/sql-utils" "^4.0.2"
+    "@minatojs/sql.js" "^2.0.0"
+    cosmokit "^1.4.0"
+    reggol "^1.3.5"
+
 "@minatojs/sql-utils@^4.0.2":
   version "4.0.2"
   resolved "https://registry.npmmirror.com/@minatojs/sql-utils/-/sql-utils-4.0.2.tgz#978c67ecf3905e610873599c9d5d8cb59dc8f08b"
@@ -233,7 +255,12 @@
   dependencies:
     cosmokit "^1.4.0"
 
-"@satorijs/adapter-onebot@^5.6.0":
+"@minatojs/sql.js@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.npmmirror.com/@minatojs/sql.js/-/sql.js-2.0.0.tgz#2e8e9063288a49bbad4361dc0d3eed9633a6d682"
+  integrity sha512-YjbcWEkmEG3MBuJqdofPxk8FxfAfr3eh02qlTXOVcXZyyVhYMq4WVniEBKRnv4kjc/fHFbYSz86DdZgM1Qs09Q==
+
+"@satorijs/adapter-onebot@^5.5.4":
   version "5.6.0"
   resolved "https://registry.npmmirror.com/@satorijs/adapter-onebot/-/adapter-onebot-5.6.0.tgz#558b7409aedc56e5404567e14544733efb5feb08"
   integrity sha512-BaJRm2I3ZPDE/pPjv4hiJoLBdC6k1PD83opRsqhLvmA5QVvWptdjsNFUWfLDGHC8M7OcAPF0L1nAAOSijeJWmQ==
@@ -1636,7 +1663,7 @@ koishi-plugin-crypto@2.0.0:
   resolved "https://registry.npmmirror.com/koishi-plugin-crypto/-/koishi-plugin-crypto-2.0.0.tgz#6b78a679d8adbc4de6e3a30dcc199230adcf3b30"
   integrity sha512-V6YoZtPQJCkZALdPugA8ErkUyvsNKlrMR1VeR2QYvdDYbVHiSDRROkFthr2WthF+gf2i3vJ2NoLXl7S4NTt/EA==
 
-koishi-plugin-desktop@^0.0.3:
+koishi-plugin-desktop@0.0.3:
   version "0.0.3"
   resolved "https://registry.npmmirror.com/koishi-plugin-desktop/-/koishi-plugin-desktop-0.0.3.tgz#2b989fcda1b270f5a6e999df6612830129672e14"
   integrity sha512-SZlXPnBXgBE4Erm0D9JA0IRn5LFgXliz/Lp8P0Gy7FUiFAzXGexB4msWLH3tk4mp70GFibjvtV6ToTgMsLQ32Q==
@@ -1732,12 +1759,12 @@ koishi-plugin-image-search@4.2.0:
     iqdb-client "^1.1.0"
     nhentai-api "^3.4.3"
 
-koishi-plugin-imej-help@^0.1.0:
+koishi-plugin-imej-help@0.1.0:
   version "0.1.0"
   resolved "https://registry.npmmirror.com/koishi-plugin-imej-help/-/koishi-plugin-imej-help-0.1.0.tgz#08eebf656aedfffd221765027639cf6cc9169040"
   integrity sha512-lMwiTyoBdun85L9sNALnkevX/igHVmOFq/cTcZU8ZPJVvzzD8slHQW67He9Lb9RXSZpXp1wmt4fyc9zREfq8JA==
 
-koishi-plugin-imej@^0.1.0:
+koishi-plugin-imej@0.1.0:
   version "0.1.0"
   resolved "https://registry.npmmirror.com/koishi-plugin-imej/-/koishi-plugin-imej-0.1.0.tgz#65e13d3c4d973467c8fba7a2f94aa314109e4675"
   integrity sha512-z4Yi+LKOvxzL8nvSTPx5i4WtyP+RmuwlyaA4VNoC2HTgFh8jUhvgWxE4RHpP3YFp3/P62qn+eJgrVAg0yBmqGg==
@@ -1791,7 +1818,7 @@ koishi-plugin-migration@0.1.0:
   resolved "https://registry.npmmirror.com/koishi-plugin-migration/-/koishi-plugin-migration-0.1.0.tgz#34ad851d1e329189b3b4ed3184809ebcc76a479c"
   integrity sha512-Shm0SXIO8q8LzXwOsQ8FuqhA1iBZ/ROe8NpZVXVdiay2mReYnWvh8faPQDxRUqRj50fs4OGYn4kQvjCJeplpSg==
 
-koishi-plugin-moyu2@^0.1.0:
+koishi-plugin-moyu2@0.1.0:
   version "0.1.0"
   resolved "https://registry.npmmirror.com/koishi-plugin-moyu2/-/koishi-plugin-moyu2-0.1.0.tgz#4649529fa5904904fd86e39f26b616ca55079401"
   integrity sha512-txULjK/QGS790r5kcNoZgmNzGvFllXvSw/QfApibJEh5Kd75cbHvupScx6lcWdclxrt3n6I1qhXOGS0AP8W3oQ==
@@ -1863,10 +1890,10 @@ koishi-plugin-rss@3.0.0:
   dependencies:
     rss-feed-emitter "^3.2.2"
 
-koishi-plugin-schedule@^4.4.0:
-  version "4.4.2"
-  resolved "https://registry.npmmirror.com/koishi-plugin-schedule/-/koishi-plugin-schedule-4.4.2.tgz#2a679750d559edf0bcd919be0f0d203e8985d667"
-  integrity sha512-KEPrLIAQh5Z+iDnhXVMBMjZQzCtAErOb2aKJbiQN5YIUD89w/daMATD9Q10f9xzjZkQP+E8ftjwHgbuhslGByQ==
+koishi-plugin-schedule@4.4.0:
+  version "4.4.0"
+  resolved "https://registry.npmmirror.com/koishi-plugin-schedule/-/koishi-plugin-schedule-4.4.0.tgz#8f848c7463fd1342381b06c6a70ce473ee5bdafe"
+  integrity sha512-tz+W8ragVnhdZgxGnOo7+BVM0JN5ta5PYwgo0d4lZOneEivqAOQ5/t5uStSM9XyARNYLyPWARRmYEMbqSyjenQ==
 
 koishi-plugin-screenshot@1.0.4:
   version "1.0.4"

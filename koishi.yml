@@ -49,7 +49,7 @@ plugins:
     database-mysql:
       $if: env.HPN_MYSQL_HOST
       host: ${{ env.HPN_MYSQL_HOST }}
-      host: ${{ Number(env.HPN_MYSQL_PORT) }}
+      port: ${{ Number(env.HPN_MYSQL_PORT) }}
       password: ${{ env.HPN_MYSQL_PASSWORD }}
       database: ${{ env.HPN_MYSQL_DATABASE }}
     assets-local:
