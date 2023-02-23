@@ -1668,11 +1668,6 @@ koishi-plugin-color@1.0.2:
   resolved "https://registry.npmmirror.com/koishi-plugin-color/-/koishi-plugin-color-1.0.2.tgz#b66cf2b8de0cf0199e415c81ba5ee40b100569b7"
   integrity sha512-FGuGb/rZE/HvkVSqp4vVDlXgvRWrrfXj0obs9VF8B+7WoWdlNfSJlm5atrUriLe/8JAhmRjYH3hRX0BZ5raICw==
 
-koishi-plugin-couplet@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npmmirror.com/koishi-plugin-couplet/-/koishi-plugin-couplet-1.1.0.tgz#0b5d52367b5014e4039f7d6346a32cfd4db02f4e"
-  integrity sha512-B6zb394IsVNqZW/KoWvURuGbjznhB3+BHDea5EGVJ4yEBWL9NaU4LbWmy8bIwUlhntlIlCdvJ02wxzF8qIH7kw==
-
 koishi-plugin-crazy-thursday@1.0.4:
   version "1.0.4"
   resolved "https://registry.npmmirror.com/koishi-plugin-crazy-thursday/-/koishi-plugin-crazy-thursday-1.0.4.tgz#82f381f461d7a192c85efb626f4feea27a6bb61b"
@@ -2412,9 +2407,9 @@ readable-stream@2.3.7:
     util-deprecate "~1.0.1"
 
 readable-stream@^3.1.1, readable-stream@^3.4.0, readable-stream@^3.6.0:
-  version "3.6.0"
-  resolved "https://registry.npmmirror.com/readable-stream/-/readable-stream-3.6.0.tgz#337bbda3adc0706bd3e024426a286d4b4b2c9198"
-  integrity sha512-BViHy7LKeTz4oNnkcLJ+lVSL6vpiFeX6/d3oSH8zCW7UxP2onchk+vTGB143xuFjHS3deTgkKoXXymXqymiIdA==
+  version "3.6.1"
+  resolved "https://registry.npmmirror.com/readable-stream/-/readable-stream-3.6.1.tgz#f9f9b5f536920253b3d26e7660e7da4ccff9bb62"
+  integrity sha512-+rQmrWMYGA90yenhTYsLWAsLsqVC8osOw6PKE1HDYiO0gdPeKe/xDHNzIAIn4C91YQ6oenEhfYqqc1883qHbjQ==
   dependencies:
     inherits "^2.0.3"
     string_decoder "^1.1.1"
