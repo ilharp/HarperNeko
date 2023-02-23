@@ -66,30 +66,6 @@ plugins:
         enabled: ${{ !env.HPN_GOCQ_EXTERNAL }}
     gocqhttp:
       $if: env.HPN_QQ && !env.HPN_GOCQ_EXTERNAL
-  group:3rdparty:
-    5k: {}
-    aircon: {}
-    answer-book: {}
-    couplet: {}
-    echo: {}
-    footer:
-      $if: env.HPN_BEIAN
-      items:
-        - text: ${{ env.HPN_BEIAN }}
-          link: https://beian.miit.gov.cn
-    hitokoto: {}
-    human-sign: {}
-    jrrp: {}
-    marry: {}
-    moyu2: {}
-    nyan:
-      transformLastLineOnly: true
-    petpet-plus: {}
-    rr-welcome: {}
-    rss: {}
-    shutdown: {}
-    sleep-manage: {}
-    spawn-handwrite-img: {}
   group:dialog:
     dialogue: {}
     dialogue-author: {}
@@ -97,21 +73,6 @@ plugins:
     dialogue-flow: {}
     dialogue-rate-limit: {}
     dialogue-time: {}
-  group:ppt:
-    puppeteer:
-      args:
-        - "--no-sandbox"
-        - "--allow-file-access"
-        - "--disable-web-security"
-        - "--allow-file-access-from-files"
-        - "--enable-local-file-accesses"
-        - "--disable-setuid-sandbox"
-        - "--allow-insecure-localhost"
-    chess: {}
-    color: {}
-    markdown: {}
-    screenshot: {}
-    tex: {}
   group:shigma:
     abbreviation: {}
     alipay-voice: {}
@@ -149,3 +110,41 @@ plugins:
     switch: {}
     twdne: {}
     weather: {}
+  group:ppt:
+    puppeteer:
+      args:
+        - "--no-sandbox"
+        - "--allow-file-access"
+        - "--disable-web-security"
+        - "--allow-file-access-from-files"
+        - "--enable-local-file-accesses"
+        - "--disable-setuid-sandbox"
+        - "--allow-insecure-localhost"
+    chess: {}
+    color: {}
+    markdown: {}
+    screenshot: {}
+    tex: {}
+  group:3rdparty:
+    5k: {}
+    aircon: {}
+    answer-book: {}
+    echo: {}
+    footer:
+      $if: env.HPN_BEIAN
+      items:
+        - text: ${{ env.HPN_BEIAN }}
+          link: https://beian.miit.gov.cn
+    hitokoto: {}
+    human-sign: {}
+    jrrp: {}
+    marry: {}
+    moyu2: {}
+    nyan:
+      transformLastLineOnly: true
+    petpet-plus: {}
+    rr-welcome: {}
+    rss: {}
+    shutdown: {}
+    sleep-manage: {}
+    spawn-handwrite-img: {}
