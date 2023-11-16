@@ -4640,10 +4640,10 @@ koishi-plugin-meal@0.0.2:
   resolved "https://registry.npmmirror.com/koishi-plugin-meal/-/koishi-plugin-meal-0.0.2.tgz#79f3fc9d55a1dc4b18b225d1526725a169442427"
   integrity sha512-QkP0Jst8xtyDbp0FktlcNK8mMXO7xaLp1ZSWYjAk1QxhuOIvoQxK5fcGW5/a6+0AgOixJCDeQfi9Jzpp2qoaQQ==
 
-koishi-plugin-messages-slim@0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmmirror.com/koishi-plugin-messages-slim/-/koishi-plugin-messages-slim-0.0.3.tgz#366c3e9f3d190d15efdd97435e6ab1f13a2ccb63"
-  integrity sha512-zhXEMkaSGz0b79Q2J/RWeeMQSqizeWhCsjMgU9N4aCPK/uc2ET+5MMD3cr/Wp3NcPe1dR9QPN7J1/EhveakwWQ==
+koishi-plugin-messages-slim@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmmirror.com/koishi-plugin-messages-slim/-/koishi-plugin-messages-slim-0.0.1.tgz#03e0f9ef682976df870938fb71ef41d5d0348d63"
+  integrity sha512-d4sMMTQ8/BKDxLrNZ2EKD+t2Zhw18nn0Pin6PhdLx7YodezSAqCqqCzZXCvGpIT17438pdzxLdu6KMJSTqo13w==
 
 koishi-plugin-nix@0.0.3:
   version "0.0.3"

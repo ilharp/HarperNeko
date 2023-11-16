@@ -87,7 +87,7 @@
     "koishi-plugin-jrrp": "1.1.1",
     "koishi-plugin-markdown": "1.1.1",
     "koishi-plugin-meal": "0.0.2",
-    "koishi-plugin-messages-slim": "0.0.3",
+    "koishi-plugin-messages-slim": "0.0.1",
     "koishi-plugin-nix": "0.0.3",
     "koishi-plugin-presence": "1.0.1",
     "koishi-plugin-profile": "1.0.3",
