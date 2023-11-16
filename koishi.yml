@@ -4,7 +4,325 @@ plugins:
   group:basic:
     admin: {}
     bind: {}
-    commands: {}
+    commands:
+      bind:
+        name: 管理/bind
+      channel:
+        name: 管理/channel
+      clear:
+        name: 管理/clear
+      inspect:
+        name: 管理/inspect
+      plugin:
+        name: 管理/plugin
+      status:
+        name: 管理/status
+      timer:
+        name: 管理/timer
+      usage:
+        name: 管理/usage
+      user:
+        name: 管理/user
+      help:
+        name: /帮助
+      管理:
+        create: true
+        config:
+          hidden: true
+      aircon:
+        name: 小游戏/群空调
+      tex:
+        name: 工具/tex
+      chess:
+        name: 小游戏/棋类游戏
+      roll:
+        name: 小游戏/roll
+        aliases:
+          掷骰: {}
+      hitokoto:
+        name: 文字/一言
+      thursday:
+        name: 文字/疯狂星期四
+      animal:
+        name: 娱乐/动物图
+      emojimix:
+        name: 图片/表情合成
+      qrcode:
+        name: 工具/二维码
+      mcping:
+        name: 工具/mc状态
+      oeis:
+        name: 工具/oeis查询
+      music:
+        name: 娱乐/点歌
+        aliases:
+          音乐: {}
+      brainfuck:
+        name: 编程工具/bf代码
+      weather:
+        name: 日常工具/天气
+      baidu:
+        name: 工具/百度
+        aliases:
+          百度百科: {}
+      maya:
+        name: 工具/玛雅历
+      glot:
+        name: 工具/代码
+        aliases:
+          运行: {}
+      douban:
+        name: 资讯/豆瓣
+      alipay-voice:
+        name: 娱乐/支付宝到账
+      hangman:
+        name: 小游戏/吊死鬼
+      abbr:
+        name: 文字/缩写
+      shutdown:
+        name: 管理/shutdown
+      pointfree:
+        name: 编程工具/pointfree
+      guess:
+        name: 小游戏/猜数字
+      4kimg:
+        name: 图片/风景图
+        aliases:
+          风景照: {}
+          风景照片: {}
+      sign:
+        name: 图片/小人举牌
+      图片:
+        create: true
+      文字:
+        create: true
+        aliases:
+          文本: {}
+      网易云热评:
+        name: 文字/网易云热评
+      每日一句:
+        name: 文字/每日一句
+      twdne:
+        name: 图片/twdne
+      showtime:
+        name: 工具/当前时间
+      sudo:
+        name: 管理/sudo
+      骚话文案:
+        name: 文字/骚话文案
+      喜报:
+        name: 图片/喜报
+      小游戏:
+        name: /游戏
+        create: true
+        aliases:
+          娱乐: {}
+      genshin:
+        name: 游戏工具/genshin
+      成语查询:
+        name: 文字/成语查询
+      悲报:
+        name: 图片/悲报
+      今日运势:
+        name: 娱乐/今日运势
+      动漫壁纸:
+        name: 图片/动漫壁纸
+      历史今日:
+        name: 资讯/历史今日
+      神回复:
+        name: 文字/神回复
+      皮一下:
+        name: 文字/皮一下
+      王者:
+        name: 文字/王者
+      votemanager:
+        name: 小游戏/实时投票
+      roulette:
+        name: 小游戏/轮盘赌
+        aliases:
+          俄罗斯轮盘赌: {}
+      poolmanager:
+        name: 小游戏/抽卡模拟器
+      lottery:
+        name: 小游戏/揭奖
+      weibo-hot:
+        name: 资讯/热搜
+      todaynews:
+        name: 资讯/新闻
+      tarot:
+        name: 娱乐/塔罗牌
+        aliases:
+          塔罗牌占卜: {}
+      sleep:
+        name: 工具/sleep
+      skl:
+        name: 文字/skl
+      schedule:
+        name: 管理/schedule
+      moyu:
+        name: 资讯/摸鱼
+      exchange:
+        name: 日常工具/汇率
+      s24:
+        name: 小游戏/s24
+      phlogo:
+        name: 图片/phlogo
+      毒鸡汤:
+        name: 文字/毒鸡汤
+      nonsense:
+        name: 文字/随机句子
+        aliases:
+          ns: {}
+      jrrp:
+        name: 小游戏/今日人品
+      r-wallpaper:
+        name: 图片/二次元房间
+      httpcat:
+        name: 图片/状态码猫图
+      handwrite:
+        name: 图片/手写
+      beauty-img:
+        name: 图片/beauty-img
+      bangumi:
+        name: 资讯/番组计划
+      auto-s24:
+        name: 小游戏/auto-s24
+      5k:
+        name: 图片/5k
+      24point:
+        name: 小游戏/24point
+      对对联:
+        name: 文字/对对联
+      搞笑语录:
+        name: 文字/搞笑语录
+      heapsnapshot:
+        name: 管理/heapsnapshot
+      roulette.shoot:
+        name: roulette/扣下扳机
+      votemanager.vote:
+        name: votemanager/投票
+      poolmanager.draw:
+        name: poolmanager/抽卡
+      feedback:
+        name: /反馈
+      关于:
+        create: true
+      star-history:
+        name: 编程工具/star历史
+      lobby:
+        name: 小游戏/大厅
+        aliases:
+          房间: {}
+      enka:
+        name: 游戏工具/enka
+      game:
+        name: 小游戏/game
+      bf2042:
+        name: 游戏工具/bf2042
+      实时油价:
+        name: 工具/油价
+      recall:
+        name: 管理/recall
+      ba:
+        name: 游戏工具/ba
+      好感计算:
+        name: 游戏工具/好感计算
+      攻略:
+        name: 游戏工具/攻略
+      重置插件数据库:
+        name: 游戏工具/重置插件数据库
+      攒钻:
+        name: 游戏工具/攒钻
+      升级:
+        name: 游戏工具/升级
+      wordle:
+        name: 小游戏/wordle
+      remake:
+        name: 小游戏/人生重开
+      npmunused:
+        name: 编程工具/npm随机名称
+      name:
+        name: 小游戏/随机姓名
+      profile:
+        name: 管理/profile
+      ping:
+        name: 管理/ping
+      cck:
+        name: 小游戏/猜猜看
+      allow:
+        name: 文字/allow
+      choice:
+        name: 文字/choice
+      or:
+        name: 文字/or
+      sr:
+        name: 游戏工具/sr
+      ys:
+        name: 游戏工具/原神
+      shindan:
+        name: 娱乐/shindan
+      fantan:
+        name: 小游戏/番摊
+      blackjack:
+        name: 小游戏/21点
+      ddz:
+        name: 小游戏/ddz
+        aliases:
+          斗地主: {}
+      bullcard:
+        name: 小游戏/斗牛
+      numtheoryanalyzer:
+        name: 工具/数字分析
+      numboom:
+        name: 小游戏/数字炸弹
+      certificate-achievement:
+        name: 图片/奖状
+      unicode:
+        name: 工具/unicode
+      nana:
+        name: 图片/狗妈表情包
+      capoo:
+        name: 图片/capoo表情包
+      certify-master:
+        name: 图片/certify-master
+        config:
+          hidden: true
+      virgin-vouch:
+        name: 图片/处男证
+      genshin-date:
+        name: 游戏工具/原神黄历
+      cyber-dream:
+        name: 文字/周公解梦
+      答案之书:
+        name: 文字/答案之书
+      quiz-master:
+        name: 小游戏/知识问答
+      chaiq-memes-image:
+        name: 图片/柴郡
+      天气:
+        name: 日常工具/天气
+      color-bias:
+        name: 小游戏/色觉测试
+      meal:
+        name: 文字/吃什么
+      算一卦:
+        name: 文字/算卦
+      暗拍:
+        name: 小游戏/暗拍
+      拍卖:
+        name: 小游戏/拍卖
+      观音灵签:
+        name: 文字/抽签
+      color-ident:
+        name: 小游戏/色彩识别
+      猜谜:
+        name: 小游戏/猜谜
+      reactle:
+        name: 小游戏/reactle
+      guess-number:
+        name: 小游戏/猜数字
+      command:
+        name: 管理/command
     help: {}
     inspect: {}
     locales:
@@ -17,10 +335,11 @@ plugins:
     ~public: {}
   group:console:
     auth:
-      $if: env.HPN_PROD
+      admin:
+        password: ${{ env.ADMIN_PASSWORD }}
     config: {}
     console:
-      open: false
+      open: true
     dataview: {}
     explorer: {}
     logger: {}
@@ -35,8 +354,7 @@ plugins:
     theme-vanilla: {}
     changelog: {}
     desktop: {}
-  group:h-basic:
-    '@m6c/base': {}
+  group:h-basic: {}
   group:storage:
     database-sqlite:
       $if: '!env.MYSQL_HOST'
@@ -55,13 +373,18 @@ plugins:
       type: public
       intents: 1308627971
       sandbox: false
+    server-temp:
+      selfUrl: a
   group:m-audit:
     ~blame: {}
     ~feedback:
       receivers: []
     exporter:
       name: hpn
-    messages-slim: {}
+    messages-slim:
+      listeners:
+        - message
+        - message-deleted
   group:develop:
     $if: env.NODE_ENV === 'development'
     hmr:
@@ -81,18 +404,19 @@ plugins:
   group:h-ent:
     aircon: {}
     jrrp: {}
-    group:m-ent-pic:
+    group:h-ent-pic:
       emojimix: {}
-      5k: {}
+      ~5k: {}
       httpcat: {}
-    group:m-ent-text:
+    group:h-ent-text:
       abbreviation: {}
+      meal:
+        json_url: >-
+          https://ghproxy.com/https://raw.githubusercontent.com/PoorCha/koishi-plugin-meal/master/menu.json
   group:h-games:
     dice: {}
     hangman: {}
     guess-number: {}
-  group:h-news:
-    moyu2: {}
 prefix:
   - /
   - null
