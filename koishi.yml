@@ -374,7 +374,7 @@ plugins:
       intents: 1308627971
       sandbox: false
     server-temp:
-      selfUrl: a
+      selfUrl: ${{ env.SELF_URL_PRIVATE }}
   group:m-audit:
     ~blame: {}
     ~feedback:
