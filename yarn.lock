@@ -4645,11 +4645,6 @@ koishi-plugin-messages-slim@0.0.3:
   resolved "https://registry.npmmirror.com/koishi-plugin-messages-slim/-/koishi-plugin-messages-slim-0.0.3.tgz#366c3e9f3d190d15efdd97435e6ab1f13a2ccb63"
   integrity sha512-zhXEMkaSGz0b79Q2J/RWeeMQSqizeWhCsjMgU9N4aCPK/uc2ET+5MMD3cr/Wp3NcPe1dR9QPN7J1/EhveakwWQ==
 
-koishi-plugin-moyu2@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmmirror.com/koishi-plugin-moyu2/-/koishi-plugin-moyu2-0.1.0.tgz#4649529fa5904904fd86e39f26b616ca55079401"
-  integrity sha512-txULjK/QGS790r5kcNoZgmNzGvFllXvSw/QfApibJEh5Kd75cbHvupScx6lcWdclxrt3n6I1qhXOGS0AP8W3oQ==
-
 koishi-plugin-nix@0.0.3:
   version "0.0.3"
   resolved "https://registry.npmmirror.com/koishi-plugin-nix/-/koishi-plugin-nix-0.0.3.tgz#53237879faadba7939d363a622d7ae358be1b509"
