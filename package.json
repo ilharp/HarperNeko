@@ -1,7 +1,7 @@
 {
   "name": "harperneko",
   "description": "Harper 猫猫 | 娱乐向的多功能群聊小助手",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "packageManager": "yarn@1.22.19",
   "repository": "https://github.com/ilharp/HarperNeko.git",
   "author": {
