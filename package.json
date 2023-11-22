@@ -71,6 +71,7 @@
     "koishi-plugin-abbreviation": "1.0.0",
     "koishi-plugin-aircon": "1.1.1",
     "koishi-plugin-assets-local": "3.1.2",
+    "koishi-plugin-at-command": "1.0.1",
     "koishi-plugin-blame": "4.0.1",
     "koishi-plugin-changelog": "2.1.0",
     "koishi-plugin-cron": "2.0.5",
