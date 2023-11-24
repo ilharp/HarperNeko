@@ -834,15 +834,15 @@
     cosmokit "^1.4.5"
     schemastery-vue "7.0.1"
 
-"@koishijs/console@^5.16.0", "@koishijs/console@^5.16.1", "@koishijs/console@^5.17.1", "@koishijs/console@^5.18.3", "@koishijs/console@^5.18.4", "@koishijs/console@^5.18.6":
+"@koishijs/console@^5.16.0", "@koishijs/console@^5.16.1", "@koishijs/console@^5.17.1", "@koishijs/console@^5.18.4":
   version "5.18.7"
   resolved "https://registry.npmmirror.com/@koishijs/console/-/console-5.18.7.tgz#418afbfdfd3fcad589c21575ba0f9ac76054d010"
   integrity sha512-IooY/93p8kb2/ohLb6/hqaftof9GJkr4/LCNl3JVwiRqMwoyWYE664N1amr+XQUunTtXMGHo6Na161pueAWeDg==
 
-"@koishijs/console@^5.19.1":
-  version "5.19.1"
-  resolved "https://registry.npmmirror.com/@koishijs/console/-/console-5.19.1.tgz#d416483efe5018fccf5fa2033e3586a56e9f9216"
-  integrity sha512-D7fTsXxd+hIIx64jB4kwFJA/9lRiUTS2OOQkGmi1106/YumQBHShW0RRqFSeHmjZWqEQLH3d+VRIpq42qCUVbg==
+"@koishijs/console@^5.19.2", "@koishijs/console@^5.19.4", "@koishijs/console@^5.19.5":
+  version "5.19.5"
+  resolved "https://registry.npmmirror.com/@koishijs/console/-/console-5.19.5.tgz#e4dcba0589ef3e2ed472d04d666ee797e379fcb7"
+  integrity sha512-tunOpc7ZLEIp3nftknW7Fc1vw5a8Y9yIMdJSf72eI/nZyHVazh4YsGupCP4bKniQKwhMWTZOCS62TOlSaDRaGg==
 
 "@koishijs/core@4.15.6":
   version "4.15.6"
@@ -880,12 +880,12 @@
   dependencies:
     "@satorijs/adapter-qq" "^4.1.11"
 
-"@koishijs/plugin-admin@2.0.0-alpha.4":
-  version "2.0.0-alpha.4"
-  resolved "https://registry.npmmirror.com/@koishijs/plugin-admin/-/plugin-admin-2.0.0-alpha.4.tgz#4f87b75cbc92704cdc5521a157138453e63ef524"
-  integrity sha512-Y/38ZrSk2yBGnJnZ6Yp4eV/mDlyefiYUQpGd39P/Km3Abqnf4P9NMX0MD7u0cyKKa/9/egdcFWQMxnGnzfs71A==
+"@koishijs/plugin-admin@2.0.0-alpha.5":
+  version "2.0.0-alpha.5"
+  resolved "https://registry.npmmirror.com/@koishijs/plugin-admin/-/plugin-admin-2.0.0-alpha.5.tgz#cd8ec9fea5930c6d7f9151ca6daa8db6e4ce36c0"
+  integrity sha512-2c14mydszgkUZ/zDEzbKztRR02DqvvjNqDdGZNcv02OlLfgdumUusBw2rkIb3SMma2DCjWygPHT5Jbs8UGqv5A==
   dependencies:
-    "@koishijs/console" "^5.16.1"
+    "@koishijs/console" "^5.19.4"
     throttle-debounce "^3.0.1"
 
 "@koishijs/plugin-auth@4.1.5":
@@ -908,21 +908,21 @@
     "@koishijs/console" "^5.17.1"
     throttle-debounce "^3.0.1"
 
-"@koishijs/plugin-config@2.4.6":
-  version "2.4.6"
-  resolved "https://registry.npmmirror.com/@koishijs/plugin-config/-/plugin-config-2.4.6.tgz#f9dceda365de426e84f6a8ddb2959ae10ca65df2"
-  integrity sha512-24y4LCKY1wu+gcoiU8kD7KUSZaW2vI1su+dbE5WQt44zBzFEPrlA+ZbLgCMoIz1P35mNJQgvv1mfdW+gLtOuug==
+"@koishijs/plugin-config@2.4.7":
+  version "2.4.7"
+  resolved "https://registry.npmmirror.com/@koishijs/plugin-config/-/plugin-config-2.4.7.tgz#0a83932cb033c5eb28d5065416fdfa4986a29c37"
+  integrity sha512-1Y6P068OkwqBoFwxKKRotIDJ7Zd0z6ooYtxTIYgzZ2kLN7PNpNYnkgtw7HOQ86npQyBkEhZfdVis/AEutnuAhw==
   dependencies:
-    "@koishijs/console" "^5.19.1"
+    "@koishijs/console" "^5.19.4"
     "@koishijs/registry" "^6.0.4"
     throttle-debounce "^3.0.1"
 
-"@koishijs/plugin-console@5.19.1":
-  version "5.19.1"
-  resolved "https://registry.npmmirror.com/@koishijs/plugin-console/-/plugin-console-5.19.1.tgz#afc9daf2be9b70b9b5a60eba619b2090d5a451e1"
-  integrity sha512-wd/Vx3mnUI2O+UhyHgC93uJD38PIkx5PRxMG+BuOjX7zvvB7ZZDpUaXV6F1wT8+vxTQwtlZDg4/NIpkoR/TKjQ==
+"@koishijs/plugin-console@5.19.5":
+  version "5.19.5"
+  resolved "https://registry.npmmirror.com/@koishijs/plugin-console/-/plugin-console-5.19.5.tgz#8ff753fe3dd8f75fca5e6f75a04c29f28d3ba2e8"
+  integrity sha512-gQI1FIN/v3710id+vwhlm25XyQhWowu1eArwmb2b4LCcq60/bfsPAS73rgsuPaQkGlnihUhGWqBQXFuJLoQ4Tg==
   dependencies:
-    "@koishijs/console" "^5.19.1"
+    "@koishijs/console" "^5.19.5"
     open "^8.4.2"
     uuid "^8.3.2"
     ws "^8.14.2"
@@ -957,10 +957,10 @@
     chokidar "^3.5.3"
     throttle-debounce "^3.0.1"
 
-"@koishijs/plugin-help@2.3.3":
-  version "2.3.3"
-  resolved "https://registry.npmmirror.com/@koishijs/plugin-help/-/plugin-help-2.3.3.tgz#4608e068f2edffac0439101b7b21e7490992f242"
-  integrity sha512-babNtW3tW2Kzdll7oAxUZZufwjKMxysCgGi8oIif1bWnJTb5dtufSQfBPfvY9LYPBLC97cuBTFzeShtcTniGvw==
+"@koishijs/plugin-help@2.4.0":
+  version "2.4.0"
+  resolved "https://registry.npmmirror.com/@koishijs/plugin-help/-/plugin-help-2.4.0.tgz#02e7231d3a13d4ddd9135128e0dc2099d41e0e10"
+  integrity sha512-c5Si9n3eKvW/hheERTKlcO82kygKBoo7BtYd7ziKlbsJZGuaHR9rXaBYzhi1ZA5iHmKkya8dRf4VC+iY9dskpQ==
 
 "@koishijs/plugin-hmr@1.2.1":
   version "1.2.1"
@@ -993,19 +993,19 @@
     js-yaml "^4.1.0"
     throttle-debounce "^3.0.1"
 
-"@koishijs/plugin-logger@2.5.2":
-  version "2.5.2"
-  resolved "https://registry.npmmirror.com/@koishijs/plugin-logger/-/plugin-logger-2.5.2.tgz#2258b0741a304fb30e6288c7c74578ef7fc03aaf"
-  integrity sha512-gJqBf2phQURuwtNb61I6Bo3IGKs2J6EbymuezZE/JltzNU2WUukl5il4b9WZliQUgbEcrr8ZBYyoR1uUM234kg==
+"@koishijs/plugin-logger@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.npmmirror.com/@koishijs/plugin-logger/-/plugin-logger-2.6.0.tgz#6d973ba88a1dd336b54ff79eedf777845ff3f05d"
+  integrity sha512-M3IS5rjEno3/jqSojO9bTBoQW+sVQa3NaCYShuH3DZFp2Ds5MqC21/TA4INcGWV1RsDjVzV65nDdtCGchR2tWg==
   dependencies:
-    "@koishijs/console" "^5.18.6"
+    "@koishijs/console" "^5.19.2"
 
-"@koishijs/plugin-market@2.4.2":
-  version "2.4.2"
-  resolved "https://registry.npmmirror.com/@koishijs/plugin-market/-/plugin-market-2.4.2.tgz#f3ad0b0d6327861a1a7b20b7178c7fcdd12c04c4"
-  integrity sha512-UbPN+g2xUIdvSDDNpEK7EqFKkItfHQNsN8cqbDbdp0hudnbbFv3qb5NWSB4nsbtxWZJZC0MZnklrZCALOzUfkw==
+"@koishijs/plugin-market@2.5.0":
+  version "2.5.0"
+  resolved "https://registry.npmmirror.com/@koishijs/plugin-market/-/plugin-market-2.5.0.tgz#40bc6c11272430739eae0029e0998454b7ddff6e"
+  integrity sha512-PyC8l4W05sPiZRl+n9GWd3dCf7pJ1RKClOjeXuE3P4B1hWIapW+dIb+n8Qz8+bKZMDz5utED/2p5+nTq8do8jw==
   dependencies:
-    "@koishijs/console" "^5.18.3"
+    "@koishijs/console" "^5.19.4"
     "@koishijs/registry" "^6.0.4"
     execa "^5.1.1"
     get-registry "^1.1.0"
@@ -1021,12 +1021,12 @@
   dependencies:
     "@koishijs/console" "^5.16.1"
 
-"@koishijs/plugin-server-temp@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.npmmirror.com/@koishijs/plugin-server-temp/-/plugin-server-temp-1.1.1.tgz#17e964a8119c5eea5b7dcbd4795bb9eaee779953"
-  integrity sha512-IfYtc1/oaTcbQqA1L8u1lHzLrN8KFsG4M3avCom+6meVVJPXbDG60stUb88FCQLNrrCmltva0hGUBHC2mp3Zdw==
+"@koishijs/plugin-server-temp@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.npmmirror.com/@koishijs/plugin-server-temp/-/plugin-server-temp-1.1.2.tgz#ff35e6b074279e29e9ee4f786b20790be725c218"
+  integrity sha512-BX+Pfr43uB1pXsgHsKTZ0ASrzuMQX3B4uHG8CmKh3YtkK+jjyE6mocgIlPP+MGZWW6dRVWb3GiUhfcNAuLj3oQ==
   dependencies:
-    "@satorijs/server-temp" "^1.1.1"
+    "@satorijs/server-temp" "^1.1.2"
 
 "@koishijs/plugin-status@7.2.5":
   version "7.2.5"
@@ -1250,10 +1250,10 @@
     socks-proxy-agent "^5.0.1"
     ws "^8.14.2"
 
-"@satorijs/server-temp@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.npmmirror.com/@satorijs/server-temp/-/server-temp-1.1.1.tgz#723569c47a16be453c327eea5651cec5a1a037bc"
-  integrity sha512-kJICgRuMq4msaBkrKVWscQ0izAtPVZP0H1qHvU77u0L9+pM1ElVszfoNfQhnVflwS3BpFWIiUAs7/vdATRPfNQ==
+"@satorijs/server-temp@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.npmmirror.com/@satorijs/server-temp/-/server-temp-1.1.2.tgz#2d039e646f9fe982fa56ae062a3eb9e852d8e999"
+  integrity sha512-ep8PS4UmJD6XxsqYo87XulHyhQOkjASCgAxoe8ymdaiPMOPFdHaxJEz+ONpSmmFYMDwqFPr1TChzrwGD/zAoPQ==
 
 "@sinclair/typebox@^0.27.8":
   version "0.27.8"

@@ -332,7 +332,6 @@ plugins:
     shutdown: {}
     sudo: {}
     heapsnapshot: {}
-    recall: {}
     ~public: {}
     at-command: {}
   group:console:
@@ -408,7 +407,7 @@ plugins:
     jrrp: {}
     group:h-ent-pic:
       emojimix: {}
-      ~5k: {}
+      5k: {}
       httpcat: {}
     group:h-ent-text:
       abbreviation: {}
