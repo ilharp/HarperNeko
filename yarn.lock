@@ -4549,6 +4549,11 @@ koishi-plugin-abbreviation@1.0.0:
   resolved "https://registry.npmmirror.com/koishi-plugin-abbreviation/-/koishi-plugin-abbreviation-1.0.0.tgz#62d6204372c8d309ec883463e91b53d2c7523a3a"
   integrity sha512-DXJB+6naepaxrrlJiKT/UzlK88d6CSyFEoLQkIA8tcegHdaR4vtCvvvd6bvc6Q9hDxbshk40QnYdeWToX7qlUQ==
 
+koishi-plugin-about@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmmirror.com/koishi-plugin-about/-/koishi-plugin-about-0.0.1.tgz#fbdb07271fcf9721708b28f39045b4bfb80dae3f"
+  integrity sha512-GHjWztOIw8nP8sBP920cLAOgeQYt+rAgpNz2SakuE3aNps1z3Z5v8dv3eWfvhptO9bmZwVQDvUSokYxwIKT1WQ==
+
 koishi-plugin-aircon@1.1.1:
   version "1.1.1"
   resolved "https://registry.npmmirror.com/koishi-plugin-aircon/-/koishi-plugin-aircon-1.1.1.tgz#6d72492afe1f36e1854b81ddd9bd701876b39ea2"
