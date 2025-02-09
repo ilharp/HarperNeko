@@ -369,7 +369,7 @@ plugins:
     status: {}
     theme-vanilla: {}
     changelog: {}
-    desktop: {}
+    ~desktop: {}
   group:h-basic: {}
   group:storage:
     ~database-sqlite: {}
@@ -401,7 +401,7 @@ plugins:
       receivers: []
     exporter:
       name: hpn
-    messages-slim:
+    ~messages-slim:
       listeners:
         - message
         - message-deleted
