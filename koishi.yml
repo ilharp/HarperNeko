@@ -336,6 +336,8 @@ plugins:
         name: 图片/奖状
       memegen-5000choyen:
         name: 图片/5k
+      memegen-bluearchive:
+        name: 图片/balogo
     about: {}
     help: {}
     inspect: {}
@@ -428,6 +430,8 @@ plugins:
             name: 奖状
           - key: 5000choyen
             name: 5k
+          - key: bluearchive
+            name: balogo
     group:h-ent-text:
       abbreviation: {}
       meal:
