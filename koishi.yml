@@ -332,6 +332,10 @@ plugins:
           每日签到: {}
           打卡: {}
           每日打卡: {}
+      memegen-certificate:
+        name: 图片/奖状
+      memegen-5000choyen:
+        name: 图片/5k
     about: {}
     help: {}
     inspect: {}
@@ -415,8 +419,15 @@ plugins:
     jrrp: {}
     group:h-ent-pic:
       emojimix: {}
-      5k: {}
+      ~5k: {}
       httpcat: {}
+      '@m6c/memes:p97p3m':
+        name: 真白酱
+        memes:
+          - key: certificate
+            name: 奖状
+          - key: 5000choyen
+            name: 5k
     group:h-ent-text:
       abbreviation: {}
       meal:
@@ -431,6 +442,7 @@ plugins:
     profile: {}
     checkin:
       reward:
+        type: uniform
         min: 1
         max: 5
 prefix:

@@ -66,6 +66,7 @@
     "@koishijs/plugin-sandbox": "3.2.2",
     "@koishijs/plugin-server-temp": "1.1.2",
     "@koishijs/plugin-status": "7.2.5",
+    "@m6c/koishi-plugin-memes": "0.0.1",
     "koishi": "4.15.6",
     "koishi-plugin-5k": "1.0.2",
     "koishi-plugin-abbreviation": "1.0.0",

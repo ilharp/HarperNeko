@@ -1068,6 +1068,11 @@
     cosmokit "^1.5.1"
     inaba "^1.1.1"
 
+"@m6c/koishi-plugin-memes@0.0.1":
+  version "0.0.1"
+  resolved "https://registry.npmmirror.com/@m6c/koishi-plugin-memes/-/koishi-plugin-memes-0.0.1.tgz#115e383ccf694d29aa011180b01680b7513eba4a"
+  integrity sha512-v29It2GeIYV81unspUzDHwSj9PRR3hvnSRMt1NviWXyNl8tG4AGQBCCGuJNvTv6YDCn/J+3k9OWyyHLh8fEVWA==
+
 "@maikolib/vite-plugin-yaml@^1.0.1":
   version "1.0.1"
   resolved "https://registry.npmmirror.com/@maikolib/vite-plugin-yaml/-/vite-plugin-yaml-1.0.1.tgz#aa6cb86ed8a671d7b6467d14d7553155809ca335"
