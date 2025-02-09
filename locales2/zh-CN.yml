@@ -45,3 +45,6 @@ commands.about.template: |-
   使用「@Harper猫猫 /帮助」查看我的所有功能哦~
   本bot不对外开放，需要对外开放的bot的话请联系管理员
   版本：{gitVersion}
+commands.profile.description: 查看我的点数和状态
+commands.about.description: 关于 Harper 猫猫
+commands.checkin.description: 每日签到获取点数

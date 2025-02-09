@@ -242,8 +242,6 @@ plugins:
         name: 编程工具/npm随机名称
       name:
         name: 小游戏/随机姓名
-      profile:
-        name: 管理/profile
       ping:
         name: 管理/ping
       cck:
@@ -324,6 +322,16 @@ plugins:
         name: 管理/command
       about:
         name: /关于
+      profile:
+        name: /我的
+        aliases:
+          me: {}
+      checkin:
+        name: /签到
+        aliases:
+          每日签到: {}
+          打卡: {}
+          每日打卡: {}
     about: {}
     help: {}
     inspect: {}
@@ -377,7 +385,7 @@ plugins:
       sandbox: false
     server-temp:
       selfUrl: ${{ env.SELF_URL_PRIVATE }}
-  group:m-audit:
+  group:h-audit:
     ~blame: {}
     ~feedback:
       receivers: []
@@ -391,7 +399,7 @@ plugins:
     $if: env.NODE_ENV === 'development'
     hmr:
       root: .
-  group:m-svc:
+  group:h-svc:
     puppeteer: {}
     markdown: {}
     text-censor: {}
@@ -399,7 +407,6 @@ plugins:
     presence: {}
     cache-database: {}
     schedule: {}
-    profile: {}
     react: {}
     downloads: {}
     nix: {}
@@ -419,6 +426,13 @@ plugins:
     dice: {}
     hangman: {}
     guess-number: {}
+  group:h-m8:
+    monetary: {}
+    profile: {}
+    checkin:
+      reward:
+        min: 1
+        max: 5
 prefix:
   - /
   - null
